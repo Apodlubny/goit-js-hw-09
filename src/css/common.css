@@ -16,3 +16,56 @@ img {
   display: block;
   max-width: 100%;
 }
+
+button {
+  border: 1px solid #212121;
+  width: 150px;
+  height: 60px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 24px;
+}
+.timer {
+  display: flex;
+  gap: 20px;
+}
+.field {
+  font-size: 40px;
+}
+#datetime-picker {
+  font-size: 24px;
+  text-align: center;
+  width: 200px;
+  height: 60px;
+  border-radius: 5px;
+  border: 1px solid #212121;
+}
+input {
+  width: 150px;
+  height: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+}
+input:last-child {
+  margin-right: 50px;
+}
+
+span {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+button[type='submit'] {
+  width: 150px;
+  height: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+}
+form {
+  display: flex;
+  justify-content: center;
+}
